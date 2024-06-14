@@ -1,4 +1,4 @@
-<!php
+<?php
 
 /** Remove WordPress Version Number */
 add_filter('the_generator', '__return_empty_string');
