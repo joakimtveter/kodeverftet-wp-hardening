@@ -1,12 +1,12 @@
 /*
-Plugin Name:  Hardening WP
+Plugin Name:  WP Utilities
 Plugin URI:   https://joakimtveter.no
-Description:  A short little description of the plugin. It will be displayed on the Plugins page in WordPress admin area.
+Description:  A plugin for hardening security and adding basic often used funcionallity.
 Version:      1.0
 Author:       Joakim Tveter
 Author URI:   https://joakimtveter.no
 License:      MIT
-Text Domain:  kodeverftet-wp-hardening
+Text Domain:  kodeverftet-wp-utils
 Domain Path:  /languages
 */
 
@@ -17,7 +17,7 @@ add_filter('the_generator', '__return_empty_string');
 add_filter(
 	'login_errors',
 	function ( $error ) {
-		return __('Username or password was incorrect!', 'kodeverftet-wp-hardening');
+		return __('Username or password was incorrect!', 'kodeverftet-wp-utils');
 	}
 );
 
