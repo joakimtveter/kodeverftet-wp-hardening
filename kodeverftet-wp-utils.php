@@ -1,3 +1,4 @@
+<?php
 /*
 Plugin Name:  WP Utilities
 Plugin URI:   https://joakimtveter.no
@@ -9,6 +10,10 @@ License:      MIT
 Text Domain:  kodeverftet-wp-utils
 Domain Path:  /languages
 */
+
+require_once('./includes/utils.php');
+require_once('./includes/security.php');
+
 
 /** Remove WordPress Version Number */
 add_filter('the_generator', '__return_empty_string');
