@@ -1,3 +1,5 @@
+<?php 
+
 function kodeverftet_add_slug_body_class( $classes ) {
 	global $post;
 	if ( isset( $post ) ) {
