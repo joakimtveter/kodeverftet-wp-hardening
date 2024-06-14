@@ -1,2 +1,2 @@
-# WP Hardening
-A WordPress Plugin to harden WordPress intstallations
+# WP Utils
+A WordPress Plugin to harden WordPress intstallations and add practical utils.
